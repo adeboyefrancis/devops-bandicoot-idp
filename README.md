@@ -14,18 +14,9 @@ This is a realistic internal platform application used as the anchor project acr
 | P5    | Kyverno policies, observability     |
 | P6    | SLOs, reusable platform patterns    |
 
-## Local setup
+## Tech Stacks Covered
 
-```bash
-make run      # Start the app
-make test     # Run tests
-make lint     # Lint the code
-make help     # See all commands
-```
-
-## Stack
-
-- **Backend**: Python + FastAPI
+- **Backend**: Python + FastAPI (Optionally - NodeJs + React + Express)
 - **Database**: PostgreSQL
 - **Containers**: Docker + Compose
 - **CI/CD**: GitHub Actions
